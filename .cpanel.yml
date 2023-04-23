@@ -3,3 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/milehigh/public_html/votes.republican
     - /bin/cp index.html $DEPLOYPATH
+---
+test reversion number 0.0.1
