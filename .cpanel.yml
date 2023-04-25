@@ -3,5 +3,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/milehigh/public_html/votes.republican
-    /bin/cp index.html $DEPLOYPATH
-    # Altered text style 23.APR.2023 version 0.0.3
+    - /bin/cp index.html $DEPLOYPATH
